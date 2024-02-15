@@ -1,0 +1,56 @@
+{
+  "moreButton": "More",
+  "secSectionTitle": "Full screen e-marketing and programming",
+  "thirdSectionTitle": "Why Fullscreen?",
+  "fourthSectionTitle": "We provide you with all marketing and programming services and solutions",
+  "fifthSectionTitle": "Our latest work",
+  "sixSectionTitle": "What did they say about us",
+  "sevenSectionTitle": "Our success partners",
+  "eightSectionTitle": "E-marketing and programming",
+  "marketingSection": {
+    "1ItemTitle": "who Are We",
+    "1ItemDesc": "We are a company specialized in providing comprehensive and effective software solutions and electronic marketing services",
+    "2ItemTitle": "Our Vision",
+    "2ItemDesc": "We aspire to achieve leadership in the field of marketing and programming by investing in human resources and technology",
+    "3ItemTitle": "Our Message",
+    "3ItemDesc": "We seek to innovate new electronic marketing and programming methods to achieve uniqueness for our customers, through a professional and specialized work team",
+    "4ItemTitle": "Our Goals",
+    "4ItemDesc": "Achieving unparalleled success for our clients, strengthening their position in the market, and making the most of modern tools and technologies",
+    "5ItemTitle": "Our Values",
+    "5ItemDesc": "We always strive to achieve maximum satisfaction for our customers by providing high quality and professional marketing services at the lowest costs.",
+    "6ItemTitle": "Our Services",
+    "6ItemDesc": "We offer you all marketing services and solutions, including social media content creation, photography, video production, website design, mobile applications, publication designs, article writing, search engine optimization, and more."
+  },
+  "whyFullscreenSection": {
+    "1ItemTitle": "Creativity",
+    "1ItemDesc": "If you want to stand out, you are in the right place! Our work team is distinguished by thinking outside the box and presenting creative ideas and innovative marketing methods with a positive and enthusiastic spirit that puts you on the front lines and undoubtedly achieves superiority over your competitors.",
+    "2ItemTitle": "Commitment",
+    "2ItemDesc": "We are distinguished by our commitment to meeting the needs of our customers and providing the best level of service in accordance with the required quality and specific specifications, agreed upon. It is committed to providing technical support, periodic communication and appointments with customers.",
+    "3ItemTitle": "Access",
+    "3ItemDesc": "We achieve rapid reach and spread in a short period, and we help you achieve all your marketing goals with creative solutions and innovative methods that guarantee you continuous successes and unlimited brilliance.",
+    "4ItemTitle": "The prices",
+    "4ItemDesc": "Because we are partners of success, we are always keen to provide you with various packages at competitive prices from which you can choose what suits your project, in addition to the flexible installment systems available on some of our services."
+  },
+  "works":{
+    "firstCategoryTitle":"Website programming",
+    "secCategoryTitle":"Mobile applications",
+    "thirdCategoryTitle":"Content creation"
+  },
+
+  "stores": {
+    "firstList": {
+      "title": "Increase traffic to the site",
+      "firstListItem": "Search Engine Optimization (SEO) Services",
+      "secListItem": "Search engine optimization services for e-commerce",
+      "thirdListItem": "Local SEO Services",
+      "fourthListItem": "Content marketing services"
+    },
+    "secList": {
+      "title": "Create and manage powerful advertising campaigns",
+      "firstListItem": "PPC management services",
+      "secListItem": "Social media advertising services",
+      "thirdListItem": "Programmatic advertising services",
+      "fourthListItem": "Programmatic advertising services"
+    }
+  }
+}

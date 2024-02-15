@@ -1,0 +1,16 @@
+.price-range-slider {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.price-slider {
+  margin-bottom: 10px;
+}
+
+.price-slider input {
+  width: 100%;
+}
+
+.selected-price-range {
+  font-weight: bold;
+}

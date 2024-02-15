@@ -1,0 +1,1 @@
+export { useSWRHook } from "./useSWRHook";

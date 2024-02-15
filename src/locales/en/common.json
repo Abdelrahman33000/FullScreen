@@ -1,0 +1,29 @@
+{
+  "homeItem": "Home",
+  "servicesItem": "Services",
+  "packagesItem": "Packages",
+  "articlesItem": "Articles",
+  "worksItem": "Our Business",
+  "hiringItem": "Hiring",
+  "contactItem": "Contact US",
+  "advertisementShow":"View",
+
+  "subscribe": {
+    "title": "Subscribe to our newsletter",
+    "desc": "Get expert tips, tutorials, news and more in your inbox to help you market successfully.",
+    "linkTitle": "Join our mailing list here"
+  },
+  "footer": {
+    "aboutSection": {
+      "title": "About Us",
+      "desc": "Full Screen is a Saudi company that has owned its tools with a passion for uniqueness and excellence in its work, through a professional and specialized team with high expertise, including content writers, social media and media experts, public relations and marketing specialists, designers and programmers, to be real partners, a house of expertise and an approved reference in drawing pictures of success In the Saudi market, and to make a difference for our partners, with great vigor through which we made services that embrace the goals of our customers towards the summit."
+    },
+    "contactSection": {
+      "title": "Connect With Us",
+      "location": "Kingdom of Saudi Arabia, Riyadh, Olaya, Street No. 28"
+    },
+    "contactsLinks": {
+      "title": "communication Web-sites"
+    }
+  }
+}

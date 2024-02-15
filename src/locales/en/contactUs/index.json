@@ -1,0 +1,30 @@
+{
+  "contactUs": {
+    "title":"Contact Information",
+    "form": {
+      "title": "Contact Us",
+      "name": "Name*",
+      "email": "Email*",
+      "subject": "Subject*",
+      "message": "Message",
+      "submitBtn": "Submit",
+      "loading": "Loading...",
+      "phone":"Enter your phone number",
+      "errorMessages": {
+        "name": {
+          "required": "Please enter the name"
+        },
+        "email": {
+          "required": "Email address is required.",
+          "pattern": "Invalid email address should include @ ,.,com,gmail or hotmail"
+        },
+        "mobile": {
+          "required": "Please enter phone number"
+        },
+        "subject": {
+          "required": "Please enter a subject name"
+        }
+      }
+    }
+  }
+}

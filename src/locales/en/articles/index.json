@@ -1,0 +1,26 @@
+{
+  "articles": {
+    "latestArticles": "Latest Articles",
+    "form": {
+      "title": "Write a comment",
+      "name": "name*",
+      "email": "email*",
+      "comment": "message*",
+      "submitButton": " Submit The Comment ",
+      "loading": "Loading...",
+      "share": "Share",
+      "errorMessages": {
+        "name": {
+          "required": "Full Name is required"
+        },
+        "email": {
+          "required": "Email address is required.",
+          "pattern": "Invalid email address should include @ ,.,com,gmail or hotmail"
+        },
+        "comment": {
+          "required": "Please enter the comment"
+        }
+      }
+    }
+  }
+}

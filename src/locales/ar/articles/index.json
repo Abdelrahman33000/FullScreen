@@ -1,0 +1,26 @@
+{
+  "articles": {
+    "latestArticles":"أحدث المقالات",
+    "form": {
+      "title": "اكتب تعليقا",
+      "name":"*الاسم",
+      "email":"*اليريد الالكتروني",
+      "comment":"*الرسالة",
+      "submitButton":"ارسال التعليق",
+      "loading": "جاري التحميل...",
+      "share":"مشاركة",
+      "errorMessages": {
+        "name": {
+          "required": "يُرجى إدخال الاسم كاملا"
+        },
+        "email": {
+          "required": "يُرجى إدخال عنوان البريد الإلكتروني",
+          "pattern": "عنوان البريد الإلكتروني غير صالح. يجب ان يحتوي @ ,.,com,gmail or hotmail"
+        },
+        "comment": {
+          "required": "الرجاء إدخال نص الرسالة"
+        }
+      }
+    }
+  }
+}

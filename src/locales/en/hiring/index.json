@@ -1,0 +1,66 @@
+{
+  "hiring": {
+    "title": "Join The Team",
+    "desc": "If you are looking for a company that values teamwork, initiative and innovation, the choice is clear you belong at Full Screen",
+    "card": {
+      "programmingCategory":"Programming",
+      "desc": "Jobs available within our development team.",
+      "weSearch": "We are looking for",
+      "for": "To work with us",
+      "applyNow": "Apply Now"
+    },
+    "hiringDescription": {
+      "tabs": {
+        "descTapTitle": "Description",
+        "applyTapTitle": "Apply"
+      },
+      "descriptionWrapper": {
+        "jobDescTitle": "Job Description",
+        "requirementsTitle": "Requirements",
+        "applyBtn": "Apply For This Job"
+      }
+    },
+    "applyForm": {
+      "title": "Personal Information",
+      "firstName": "First Name*",
+      "lastName": "Last Name*",
+      "email": "Email*",
+      "phoneNote": "The hiring team may use this number to contact you about this position.",
+      "location": "Home Address*",
+      "profile": "Profile",
+      "specialization": "Specialization*",
+      "degree": "Degree*",
+      "file": "Upload your CV or drag and drop here",
+      "notes": "Add any other notes",
+      "submitBtn": "Submit",
+      "loading": "Loading...",
+      "errorMessages": {
+        "firstName": {
+          "required": "Please enter first name"
+        },
+        "lastName": {
+          "required": "Please enter last name"
+        },
+        "email": {
+          "required": "Email address is required.",
+          "pattern": "Invalid email address should include @ ,.,com,gmail or hotmail"
+        },
+        "phone": {
+          "required": "Please enter phone number"
+        },
+        "location": {
+          "required": "Please enter the residential address"
+        },
+        "specialization": {
+          "required": "Please enter the specialty"
+        },
+        "degree": {
+          "required": "Please enter your academic degree"
+        },
+        "file": "Please attach your CV",
+        "fileError2":""
+
+      }
+    }
+  }
+}
