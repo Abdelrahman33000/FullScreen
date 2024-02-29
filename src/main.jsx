@@ -5,6 +5,7 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import i18n from "./i18n";
 import { I18nextProvider } from "react-i18next";
+// import 'bootstrap/dist/css/bootstrap.css';
 
 import { LoadingMode } from "./components/index.js";
 

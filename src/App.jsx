@@ -6,7 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { Suspense, lazy } from "react";
 import { LoadingMode } from "./components";
 import { OurWorks } from "./pages/OurWorks";
-import Aa from "./Login/Login";
+import ForgetPassword from "./ForgetPassword/ForgetPassword";
+import Login from "./Login/Login";
 // import App0 from "./pages/progress";
 
 const Home = lazy(() => import("./pages/Home"));
@@ -42,7 +43,8 @@ function App() {
           <Route path="/our-works" element={<OurWorks />} />
           <Route path="/job-description/:id" element={<JobDescription />} />
         </Route>
-        <Route path="/a" element={<Aa />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/forgetPassword" element={<ForgetPassword />} />
       </Routes>
     </>
   );

@@ -1,0 +1,19 @@
+{
+    "Create Account" :"إنشاء حساب",
+    "Password":" كلمة المرور *",
+    "Remember me":"تذكرني",
+    "Forget  Password":" نسيت كلمة المرور؟ ",
+    "Name":"اسم التاجر *" ,
+    "I agree with the terms and conditions":"أنا أتفق مع الشروط والأحكام",
+    "enter ur password":"الرجاء ادخال كلمه السر ",
+    "Change Password":"تغيير كلمة المرور",
+    "New Password":" كلمة السر الجديده ",
+    "Confirm Password":"تأكيد كلمة السر الجديده",
+    "message1":"يجب أن تتكون من 6 أحرف على الأقل وأن تتضمن توليفة من الأرقام ",
+    "message2":"والأحرف الأبجدية والأحرف الخاصة ",
+    "Please check your inbox":"يرجى مراجعة صندوق الوارد ",
+    "Your account password recovery details have been sent to Your E-mail":"تم إرسال تفاصيل استعادة كلمة المرور الخاصة بحسابك إلى بريدك الإلكتروني",
+    "Restore password":"استعادة كلمة المرور",
+    "Please enter your registered email before":"الرجاء ادخال البريد المسجل لدينا من قبل"
+
+}

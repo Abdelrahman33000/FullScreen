@@ -1,0 +1,18 @@
+{
+    "Create Account":"Create Account",
+    "Password":"password",
+    "Remember me":"Remember me",
+    "Forget  Password":"Forget  Password",
+    "Name":"Name",
+    "I agree with the terms and conditions":"I agree with the terms and conditions",
+    "enter ur password":"Enter Your password",
+    "Change Password":"Change Password",
+    "New Password":"New Password",
+    "Confirm Password":"Confirm Password",
+    "message1":"It must be at least 6 characters long and include a combination of numbers",
+    "message2":"The alphabet and special characters",
+    "Please check your inbox":"Please check your inbox",
+    "Your account password recovery details have been sent to Your E-mail":"Your account password recovery details have been sent to Your E-mail",
+    "Restore password":"Restore password",
+    "Please enter your registered email before":"Please enter your registered email before"
+}

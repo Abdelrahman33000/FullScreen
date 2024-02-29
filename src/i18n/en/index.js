@@ -5,6 +5,7 @@ import Articles from "../../locales/en/articles/index.json";
 import Hiring from "../../locales/en/hiring/index.json";
 import ContactUs from "../../locales/en/contactUs/index.json";
 import OurWorks from "../../locales/en/ourWorks/index.json";
+import  Login from "../../locales/en/login/index.json";
 const en = {
   ...common,
   ...Home,
@@ -13,6 +14,8 @@ const en = {
   ...Hiring,
   ...ContactUs,
   ...OurWorks,
+  ...Login,
+
 };
 
 export default en;

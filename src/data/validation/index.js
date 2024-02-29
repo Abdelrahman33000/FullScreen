@@ -22,6 +22,10 @@ export const FORM_VALIDATION = {
   comment: {
     required: "الرجاء ادخال نص الرسالة",
   },
+  password: {
+    required: "الرجاء ادخال كلمة المرور ",
+  },
+
   email: {
     required: "الرجاء ادخال البريد الالكتروني",
     pattern: {

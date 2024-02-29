@@ -52,5 +52,9 @@
       "thirdListItem": "Programmatic advertising services",
       "fourthListItem": "Programmatic advertising services"
     }
-  }
+  },
+  "login":"login",
+  "Order now":"Order now",
+  "Price":"Price"
+
 }

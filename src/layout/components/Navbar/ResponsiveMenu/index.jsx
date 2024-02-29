@@ -41,8 +41,9 @@ const ResponsiveMenu = () => {
   }
 
   return (
-    <Disclosure.Panel className="md:hidden  ">
-      <div className="space-y-1  max-h-screen overflow-auto  pb-4 pt-2">
+    <Disclosure.Panel className="md:hidden ">
+      <div className="max-h-screen pt-2 pb-4 space-y-1 overflow-auto">
+        
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -70,7 +71,7 @@ const ResponsiveMenu = () => {
                   } h-5 w-5 text-primary`}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-2  pb-2 text-sm text-gray-500">
+              <Disclosure.Panel className="px-2 pb-2 text-sm text-gray-500">
                 <Transition
                   as={Fragment}
                   enter="transition ease-out duration-200"
@@ -97,7 +98,7 @@ const ResponsiveMenu = () => {
                                   (AccordionRefs.current[index] = el)
                                 }
                               >
-                                <Disclosure.Button className="flex w-full font-bold justify-between   bg-transparent px-4 py-2 text-left text-sm  text-primary hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-bold text-left bg-transparent text-primary hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                   <span>{item._id}</span>
                                   <ChevronUpIcon
                                     className={`${
@@ -111,7 +112,7 @@ const ResponsiveMenu = () => {
                                   <NavLink
                                     key={service?._id}
                                     to={`/services/${service._id}`}
-                                    className="block px-4 py-2 text-md text-grayDefault hover:bg-gray-100 font-medium"
+                                    className="block px-4 py-2 font-medium text-md text-grayDefault hover:bg-gray-100"
                                   >
                                     {service.name}{" "}
                                   </NavLink>
@@ -128,7 +129,6 @@ const ResponsiveMenu = () => {
             </>
           )}
         </Disclosure>
-
         <NavLink
           to="/packages"
           className={({ isActive }) =>

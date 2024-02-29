@@ -5,6 +5,7 @@ import Articles from "../../locales/ar/articles/index.json";
 import Hiring from "../../locales/ar/hiring/index.json";
 import ContactUs from "../../locales/ar/contactUs/index.json";
 import OurWorks from "../../locales/ar/ourWorks/index.json";
+import Login from "../../locales/ar/login/index.json";
 
 const ar = {
   ...common,
@@ -14,6 +15,7 @@ const ar = {
   ...Hiring,
   ...ContactUs,
   ...OurWorks,
+  ...Login,
 };
 
 export default ar;

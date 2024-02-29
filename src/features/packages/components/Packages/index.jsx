@@ -23,7 +23,14 @@ export const Packages = () => {
 
   return (
     <div className="bg-secondary pt-12 pb-[80px] relative">
-      <div className="  mx-auto max-w-7xl px-2 sm:px-4 md:px-8">
+      <div className="px-2 mx-auto max-w-7xl sm:px-4 md:px-8">
+
+
+        
+            {/* الباقات */}
+
+
+            
         <div className="mx-auto lg:w-[420px] text-center">
           <h2 className="text-2xl font-[700] text-center text-primary">
             {t("packages.title")}
@@ -32,7 +39,7 @@ export const Packages = () => {
             {t("packages.desc")}
           </p>
         </div>
-        <div className="flex flex-wrap justify-center  items-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-4">
           {isLoading ? (
             <PackagesSkeleton />
           ) : (

@@ -14,6 +14,7 @@ import { useSWRHook } from "../../../hooks";
 import { API_SERVICES_URLS } from "../../../data";
 import SwitchLanguage from "../../../components/SwitchLanguage";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -107,7 +108,6 @@ export const Navbar = () => {
                   >
                     {t("homeItem")}
                   </NavLink>
-
                   <Menu
                     as="div"
                     className={`${
@@ -242,9 +242,12 @@ export const Navbar = () => {
                     {t("contactItem")}
                   </NavLink>
                 </div>
+         <Link to={"/login"}>
+               <button className="mx-1" style={{ border:"1px solid #6e2d82" ,color:"#6e2d82", padding:"5px 20px", borderRadius:"7px" }} >   {t("login")} </button>
+         </Link>
                 <SwitchLanguage />
               </div>
-              <div className="flex items-center  md:hidden">
+              <div className="flex items-center md:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 mr-1 text-black rounded-md hover:bg-gray-100 hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
                   <span className="sr-only">Open main menu</span>

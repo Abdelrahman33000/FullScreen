@@ -31,7 +31,7 @@ export default function App() {
 
    
         
-        navigation={true}
+        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
