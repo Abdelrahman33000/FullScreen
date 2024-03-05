@@ -8,11 +8,11 @@ export const Footer = () => {
   return (
     <div className="">
       <footer className="bg-white text-center   lg:text-right pt-10 md:pt-16 border-t-[1.5px] border-gray-200   ">
-        <div className="mx-auto max-w-7xl px-2 md:px-3 lg:px-0 pb-12">
-          <div className="mx-6 py-10  text-start  ">
-            <div className="grid-1 grid  md:grid-cols-2 lg:grid-cols-4 gap-16">
+        <div className="px-2 pb-12 mx-auto max-w-7xl md:px-3 lg:px-0">
+          <div className="py-10 mx-6 text-start ">
+            <div className="grid gap-16 grid-1 md:grid-cols-2 lg:grid-cols-4">
               <div className="">
-                <h4 className="mb-4  text-2xl flex       uppercase  justify-start font-bold text-primary">
+                <h4 className="flex justify-start mb-4 text-2xl font-bold uppercase text-primary">
                   {t("footer.aboutSection.title")}
                 </h4>
                 <p className="text-black font-[400]">
@@ -21,57 +21,60 @@ export const Footer = () => {
               </div>
 
               <div className="text-black">
-                <h4 className="mb-4  text-2xl flex items-center    uppercase  justify-start font-bold text-primary">
+                <h4 className="flex items-center justify-start mb-4 text-2xl font-bold uppercase text-primary">
                   {t("footer.contactSection.title")}
                 </h4>
                 <h6 className="mb-7 flex text-md    font-[400]  justify-start">
                   {t("footer.contactSection.location")}
                 </h6>
-                <p className="flex gap-4 items-center mb-4">
+                <p className="flex items-center gap-4 mb-4">
                   <img src="/phone.svg" alt="phone" />
-                  <span>966114090010</span>
+                  <span>+201011815928</span>
+                  {/* <span>966114090010</span> */}
                 </p>
-                <p className="flex gap-4 items-center mb-4">
+                <p className="flex items-center gap-4 mb-4">
                   <img src="/mail.svg" alt="mail" />
                   <span>
-                    <a href="mailto:info@fullscreem.sa">info@fullscreem.sa</a>
+                    <a href="mailto:aboabdo8600@gmail.com">aboabdo8600@gmail.com</a>
                   </span>
                 </p>
                 <a
-                  href="https://api.whatsapp.com/send?phone=966114090010"
+                  href="https://api.whatsapp.com/send?phone=201011815928"
                   target="_blank"
                   aria-label="Chat on WhatsApp"
-                  className="flex gap-4 items-center mb-4"
+                  className="flex items-center gap-4 mb-4"
                 >
                   <img src="/whatsup.svg" alt="whatsup" />
-                  <span>+966 5307 005 02</span>
+                  {/* <span>+966 5307 005 02</span> */}
+                  <span>+201011815928</span>
+
                 </a>
               </div>
 
               <div className="">
-                <h4 className="mb-6  text-2xl flex items-center  uppercase justify-start font-bold text-primary">
+                <h4 className="flex items-center justify-start mb-6 text-2xl font-bold uppercase text-primary">
                   {t("footer.contactsLinks.title")}
                 </h4>
                 <div className="flex gap-3">
-                  <a
+                  {/* <a
                     href="https://www.instagram.com/fullscreensa_/"
                     target="_blank"
-                  >
+                  > */}
                     <img
                       src="/instagram.svg"
                       alt="instagram"
                       className="w-9 h-9"
                     />
-                  </a>
-                  <a
+                  {/* </a> */}
+                  {/* <a
                     href="https://youtu.be/VflBoTUNxAM?si=ve0K6ApdNg7iTRqb"
                     target="_blank"
-                  >
+                  > */}
                     <img src="/youtube.svg" alt="youtube" className="w-9 h-9" />
-                  </a>
-                  <a href="https://twitter.com/FullScreensa_" target="_blank">
+                  {/* </a> */}
+                  {/* <a href="https://twitter.com/FullScreensa_" target="_blank"> */}
                     <img src="/twitter.svg" alt="twitter" className="w-9 h-9" />
-                  </a>
+                  {/* </a> */}
                   <a href="#" target="_blank">
                     <img
                       src="/facebook.svg"
@@ -83,24 +86,24 @@ export const Footer = () => {
               </div>
 
               <div>
-                <h4 className="mb-5  text-xl flex items-center    uppercase justify-start font-bold text-primary hover:text-opacity-80 transition ease-linear delay-100">
+                <h4 className="flex items-center justify-start mb-5 text-xl font-bold uppercase transition ease-linear delay-100 text-primary hover:text-opacity-80">
                   <NavLink to="/">{t("homeItem")}</NavLink>
                 </h4>
-                <h4 className="mb-5  text-xl flex items-center    uppercase justify-start font-bold text-primary hover:text-opacity-80 transition ease-linear delay-100">
+                <h4 className="flex items-center justify-start mb-5 text-xl font-bold uppercase transition ease-linear delay-100 text-primary hover:text-opacity-80">
                   <HashLink to="/services/برمجة#1">
                     {t("servicesItem")}
                   </HashLink>
                 </h4>
-                <h4 className="mb-5  text-xl flex items-center    uppercase justify-start font-bold text-primary hover:text-opacity-80 transition ease-linear delay-100">
+                <h4 className="flex items-center justify-start mb-5 text-xl font-bold uppercase transition ease-linear delay-100 text-primary hover:text-opacity-80">
                   <NavLink to="/articles"> {t("articlesItem")}</NavLink>
                 </h4>
-                <h4 className="mb-5  text-xl flex items-center    uppercase justify-start font-bold text-primary hover:text-opacity-80 transition ease-linear delay-100">
+                <h4 className="flex items-center justify-start mb-5 text-xl font-bold uppercase transition ease-linear delay-100 text-primary hover:text-opacity-80">
                   <HashLink to="/#projects"> {t("worksItem")}</HashLink>
                 </h4>
-                <h4 className="mb-5  text-xl flex items-center    uppercase justify-start font-bold text-primary hover:text-opacity-80 transition ease-linear delay-100">
+                <h4 className="flex items-center justify-start mb-5 text-xl font-bold uppercase transition ease-linear delay-100 text-primary hover:text-opacity-80">
                   <NavLink to="/hiring"> {t("hiringItem")}</NavLink>
                 </h4>
-                <h4 className="mb-5  text-xl flex items-center    uppercase justify-start font-bold text-primary hover:text-opacity-80 transition ease-linear delay-100">
+                <h4 className="flex items-center justify-start mb-5 text-xl font-bold uppercase transition ease-linear delay-100 text-primary hover:text-opacity-80">
                   <NavLink to="/contact-us"> {t("contactItem")} </NavLink>
                 </h4>
               </div>

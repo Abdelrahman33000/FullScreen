@@ -37,42 +37,45 @@ export const ContactForm = () => {
   );
   return (
     <div className="bg-white">
-      <div className=" mx-auto max-w-7xl px-2 sm:px-4 md:px-8  pt-10 md:pb-6 md:pt-32">
-        <div className="flex flex-col sm:flex-row gap-20">
+      <div className="px-2 pt-10 mx-auto max-w-7xl sm:px-4 md:px-8 md:pb-6 md:pt-32">
+        <div className="flex flex-col gap-20 sm:flex-row">
           <div className="w-full sm:w-[25%] text-primary">
             <div>
-              <h4 className="mb-10  text-2xl flex items-center    uppercase  justify-start font-bold  ">
+              <h4 className="flex items-center justify-start mb-10 text-2xl font-bold uppercase ">
                 {t("contactUs.title")}
               </h4>
               <h6 className="mb-7 flex text-md    font-[400]  justify-start">
                 {t("footer.contactSection.location")}
               </h6>
-              <p className="flex gap-4 items-center mb-4">
+              <p className="flex items-center gap-4 mb-4">
                 <img src="/phone.svg" alt="phone" />
-                <span>966114090010</span>
+                <span>+201011815928</span>
+                {/* <span>966114090010</span> */}
               </p>
-              <p className="flex gap-4 items-center mb-4">
+              <p className="flex items-center gap-4 mb-4">
                 <img src="/mail.svg" alt="mail" />
                 <span>
-                  <a href="mailto:info@fullscreem.sa">info@fullscreem.sa</a>
+                  <a href="mailto:aboabdo8600@gmail.com">aboabdo8600@gmail.com</a>
                 </span>
               </p>
-              <p className="flex gap-4 items-center mb-4">
+              <p className="flex items-center gap-4 mb-4">
                 <img src="/whatsup.svg" alt="whatsup" />
-                <span>+966 5307 005 02</span>
+                {/* <span>+966 5307 005 02</span> */}
+                <span>+201011815928</span>
+
               </p>
             </div>
           </div>
           <div className="w-full sm:w-[75%]">
             <form onSubmit={onSubmit} className="md:w-2/3">
-              <h4 className="text-primary text-xl font-bold mb-10">
+              <h4 className="mb-10 text-xl font-bold text-primary">
                 {t("contactUs.form.title")}
               </h4>
               <div className="flex gap-3">
                 <div className="w-full sm:w-1/2">
                   <FloatingInput
                     id="name"
-                    className=" text-black  rounded-lg"
+                    className="text-black rounded-lg "
                     label={t("contactUs.form.name")}
                     {...register("name", {
                       ...FORM_VALIDATION.fullName,
@@ -109,7 +112,7 @@ export const ContactForm = () => {
                 <div className="w-full sm:w-1/2">
                   <FloatingInput
                     id="subject"
-                    className=" text-black  rounded-lg"
+                    className="text-black rounded-lg "
                     label={t("contactUs.form.subject")}
                     {...register("subject", {
                       ...FORM_VALIDATION.subject,
@@ -173,7 +176,7 @@ export const ContactForm = () => {
               />
               <Button
                 type="submit"
-                className="w-full mt-6 py-3 font-medium mb-16"
+                className="w-full py-3 mt-6 mb-16 font-medium"
                 loading={isMutating}
                 buttonLoadingProps={{
                   loadingText: t("contactUs.form.loading"),
